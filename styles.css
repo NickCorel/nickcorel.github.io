@@ -1,0 +1,35 @@
+* {
+	font-family: monospace;
+	color: white;
+}
+
+body {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00FF94 0%, #720059 100%), linear-gradient(121.28deg, #669600 0%, #FF0000 100%), linear-gradient(360deg, #0029FF 0%, #8FFF00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+	width: fit-content;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	backdrop-filter: blur(8px) saturate(180%);
+	background-color: rgba(17, 25, 40, 0.5);
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.125);
+}
